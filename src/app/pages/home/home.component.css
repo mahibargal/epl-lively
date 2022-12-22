@@ -1,0 +1,46 @@
+.product{
+    padding: 20px;
+}
+.slider-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+}
+.slider-main{
+    position: absolute;
+    width: 200%;
+}
+.item{
+    display: inline-block;
+    width: 230px;
+    height: 310px;
+    position: relative;
+    margin: 0 13px;
+   
+}
+.img-fluid{
+    border-radius: 10px;
+}
+.prev{
+position: absolute;
+left: 22px;
+top: 38%;
+transform: translate(-50%,-50%);
+}
+.next{
+    position: absolute;
+    right: 5px;
+    top: 38%;
+    transform: translate(-50%,-50%);
+}
+.change_slider{
+    border: 0;
+ background-color: rgb(122, 116, 116);
+    color: white;
+    border-radius:100px;
+    padding: 5px 10px;
+}
+.nav-link{
+    color: white !important;
+    font-weight: 400px;
+}

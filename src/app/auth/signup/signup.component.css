@@ -1,0 +1,15 @@
+.login{
+    color: #17a28b;
+  }
+  .login a{
+    color:rgba(0, 0, 0, 0.85)E00;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .user-image{
+    width:60px;
+    height: 60px;
+    margin-left: 45%;
+  }
+  
+  

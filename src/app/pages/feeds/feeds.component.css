@@ -1,0 +1,12 @@
+.textarea{
+    width: 150px;
+    height: 233px;
+}
+.upload-button{
+    border-style: ridge;
+    padding: 6px;
+}
+.date-menu{
+    display: flex;
+    justify-content: flex-end;
+}
