@@ -5,14 +5,14 @@
           <div class="auth-avatar">
             <img src="https://pluspng.com/img-png/user-png-icon-account-avatar-human-male-man-men-people-person-download-svg-download-png-edit-icon-512.png" alt="user" class="user-image">
           </div>
-          <form (submit)="login(userData)">
+          <form >
             <div class="form-group">
               <label for="email">Email : </label>
-              <input type="text" name="email" class="form-control" placeholder="Email" [(ngModel)]="userData.email">
+              <input type="text" name="email" class="form-control" placeholder="Email" >
             </div>
             <div class="form-group">
               <label for="password">Password : </label>
-              <input type="password" name="password" class="form-control" placeholder="********" [(ngModel)]="userData.password">
+              <input type="password" name="password" class="form-control" placeholder="********">
               <div class="text-right forget-pass">
                 <a routerLink="/forget-password">Forget Password ?</a>
               </div>

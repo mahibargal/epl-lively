@@ -4,10 +4,12 @@ import { DigitalComponent } from './pages/digital/digital.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LiveStreamComponent } from './pages/live-stream/live-stream.component';
 import { FeedsComponent } from './pages/feeds/feeds.component';
-import { ProductsComponent } from './pages/shop/products/products.component';
+
 import { ShopComponent } from './pages/shop/shop.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
+import { CartComponent } from './cart/cart.component';
+import { ProductsComponent } from './pages/products/products.component';
 
 const routes: Routes = [
   { path: 'home',component:HomeComponent},
@@ -17,7 +19,8 @@ const routes: Routes = [
   {path:'shop/feeds',component:FeedsComponent},
   {path:'shop/products',component:ProductsComponent},
   {path:'login',component:LoginComponent},
-  {path:'signup',component:SignupComponent}
+  {path:'signup',component:SignupComponent},
+  {path:'cart',component:CartComponent}
   /// { path: 'shop', loadChildren: () => import('./pages/shop/shop.module').then(m => m.ShopModule) }
   // { path: 'shop', component: ShopComponent,
   //   children: [

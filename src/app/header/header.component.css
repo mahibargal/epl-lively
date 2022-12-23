@@ -1,0 +1,7 @@
+.navbar-expand-lg{
+    padding: 20px;
+}
+.container-fluid{
+    display: flex;
+    margin-right: 0;
+}

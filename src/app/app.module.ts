@@ -14,12 +14,17 @@ import { NZ_I18N } from 'ng-zorro-antd/i18n';
 import { hi_IN } from 'ng-zorro-antd/i18n';
 import { CommonModule, registerLocaleData } from '@angular/common';
 import hi from '@angular/common/locales/hi';
+import { HeaderComponent } from './header/header.component';
+
+
+
 
 registerLocaleData(hi);
+import { ProductsModule } from './pages/products/products.module';
 @NgModule({
   declarations: [
     AppComponent,
-
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +38,8 @@ registerLocaleData(hi);
     BrowserAnimationsModule,
     MatDatepickerModule,
     HttpClientModule,
+    ProductsModule
+    
 
   ],
   providers: [{ provide: NZ_I18N, useValue: hi_IN }],

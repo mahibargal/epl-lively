@@ -1,0 +1,14 @@
+.cart-item-wrapper {
+    /*border: 1px solid limegreen;*/
+    display: flex;
+    justify-content: space-between;
+}
+input {
+    text-align: center;
+    width: 60px;
+}
+.cart-item-wrapper > div {
+    flex-grow: 1;
+    color: #436F85;
+    text-align: center;
+}
